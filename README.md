@@ -87,5 +87,32 @@ O objetivo deste repositório é documentar a jornada de criação de um MVP fun
 
 ---
 
-## 🎯
+## 🎯 Meu Papel
+Embora o código inicial tenha sido gerado com o apoio da IA, fui responsável por:
+- Elaborar prompts técnicos e detalhados
+- Definir requisitos funcionais
+- Validar a arquitetura proposta
+- Organizar roadmap de melhorias futuras
+- Documentar cada etapa aqui no GitHub
 
+---
+
+## 📅 Roadmap
+1. Conectar repositório com Bolt (código base) ✅  
+2. Configurar documentação detalhada ✅  
+3. Adicionar issues e milestones (funcionalidades futuras) 🔜  
+4. Publicar versão inicial (deploy) 🔜  
+
+---
+
+## 📖 Transparência
+Este projeto é parte do meu **portfólio em engenharia de software**, mostrando minha capacidade de **usar IA de forma estratégica** no desenvolvimento de software moderno.
+
+> "Não se trata apenas de escrever código, mas de **saber conduzir a tecnologia** para transformar ideias em produtos reais."
+
+---
+
+## 📜 Licença
+🔒 Este projeto é parte de portfólio acadêmico/profissional de **Luzbela Souza**.  
+Não é autorizado o uso, modificação ou distribuição sem consentimento prévio da autora.  
+Consulte o arquivo [LICENSE.md](./LICENSE.md) para detalhes completos.
