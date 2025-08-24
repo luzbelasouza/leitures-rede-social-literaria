@@ -111,6 +111,16 @@ Este projeto é parte do meu **portfólio em engenharia de software**, mostrando
 > "Não se trata apenas de escrever código, mas de **saber conduzir a tecnologia** para transformar ideias em produtos reais."
 
 ---
+## 📌 Roadmap no GitHub
+Este projeto está organizado em **Milestones e Issues** para acompanhar a evolução do produto:  
+👉 [Veja o Roadmap completo aqui](../../milestones)  
+
+- ✅ MVP Inicial — concluído (5/5 issues fechadas)  
+- 🎮 Gamificação Avançada — em planejamento (0% concluído)  
+- 📊 Analytics e Insights — em planejamento (0% concluído)  
+- 💰 Monetização — em planejamento (0% concluído)  
+- 🌐 Expansão & Internacionalização — em planejamento (0% concluído)  
+- 🧪 Testes & Qualidade — em planejamento (0% concluído)  
 
 ## 📜 Licença
 🔒 Este projeto é parte de portfólio acadêmico/profissional de **Luzbela Souza**.  
