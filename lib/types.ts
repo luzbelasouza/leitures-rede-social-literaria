@@ -4,7 +4,7 @@ export interface Post {
   user: {
     id: string
     name: string
-    avatar_url?: string
+    avatar_url?: string | null
     badges?: Badge[]
   }
   content: string
