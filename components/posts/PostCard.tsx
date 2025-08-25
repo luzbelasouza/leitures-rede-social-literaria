@@ -26,7 +26,7 @@ interface PostProps {
   user: {
     id: string
     name: string
-    avatar_url?: string
+    avatar_url: string | null;
     badges?: any[]
   }
   content: string
