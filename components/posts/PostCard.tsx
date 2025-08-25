@@ -26,8 +26,7 @@ interface PostProps {
   user: {
     id: string
     name: string
-    // ✅ Corrigido: permite string, null ou undefined
-    avatar_url?: string | null 
+    avatar_url?: string | null // ✅ Corrigido: aceita string, null ou undefined
     badges?: any[]
   }
   content: string
@@ -45,7 +44,6 @@ interface PostProps {
   showSimilar?: boolean
   showComments?: boolean
 }
-
 
 const POST_TYPE_CONFIG = {
   excerpt: {
@@ -102,13 +100,11 @@ export default function PostCard({
   const [showShareModal, setShowShareModal] = useState(false)
 
   const handleLike = async () => {
-    // Aqui implementaremos a lógica de curtir
     setLiked(!liked)
     setLikesCount(prev => liked ? prev - 1 : prev + 1)
   }
 
   const handleAddComment = async (content: string) => {
-    // Simular adição de comentário
     const newComment: Comment = {
       id: `comment-${Date.now()}`,
       user_id: 'current-user',
@@ -125,7 +121,6 @@ export default function PostCard({
       likes_count: 0,
       is_liked: false
     }
-    
     setCommentsData(prev => [newComment, ...prev])
     setCommentsCount(prev => prev + 1)
   }
@@ -144,7 +139,6 @@ export default function PostCard({
 
   const handlePlayAudio = () => {
     if (!audio_url) return
-
     if (!audioRef) {
       const audio = new Audio(audio_url)
       audio.onended = () => setIsPlayingAudio(false)
@@ -187,10 +181,9 @@ export default function PostCard({
   return (
     <>
       <article className="post-card mb-8">
-        {/* Header do post */}
         <div className="flex items-center gap-3 mb-4">
           <Avatar className="h-12 w-12">
-            <AvatarImage src={user.avatar_url} />
+            <AvatarImage src={user.avatar_url ?? '/default-avatar.png'} />
             <AvatarFallback className="bg-primary/10 dark:bg-primary-dark/10 text-primary dark:text-primary-dark">
               {user.name.charAt(0)}
             </AvatarFallback>
@@ -198,12 +191,9 @@ export default function PostCard({
           <div className="flex-1">
             <div className="flex items-center gap-2">
               <p className="font-semibold text-foreground dark:text-foreground-dark">{user.name}</p>
-              
-              {/* Badges do usuário */}
               {user.badges && user.badges.length > 0 && (
                 <BadgeDisplay badges={user.badges} maxVisible={2} size="sm" />
               )}
-              
               <div className={cn(
                 "flex items-center gap-1 px-2 py-1 rounded-full text-xs font-medium",
                 typeConfig.bgColor
@@ -221,7 +211,6 @@ export default function PostCard({
           </div>
         </div>
 
-        {/* Player de áudio */}
         {post_type === 'audio' && audio_url && (
           <div className="mb-6 p-4 bg-green-50 dark:bg-green-900/20 rounded-lg border border-green-200 dark:border-green-800">
             <div className="flex items-center gap-3">
@@ -244,7 +233,6 @@ export default function PostCard({
           </div>
         )}
 
-        {/* Imagem do post */}
         {image_url && (
           <div className="mb-6 rounded-lg overflow-hidden">
             <img
@@ -255,7 +243,6 @@ export default function PostCard({
           </div>
         )}
 
-        {/* Conteúdo do post */}
         <div className="mb-6">
           {post_type === 'excerpt' ? (
             <blockquote className="text-foreground dark:text-foreground-dark text-lg md:text-xl leading-7 italic border-l-4 border-accent dark:border-accent-dark pl-6 mb-6 font-serif">
@@ -284,7 +271,6 @@ export default function PostCard({
           )}
         </div>
 
-        {/* Tags */}
         {tags.length > 0 && (
           <div className="flex flex-wrap gap-2 mb-6">
             {tags.map((tag) => (
@@ -302,7 +288,6 @@ export default function PostCard({
           </div>
         )}
 
-        {/* Ações do post */}
         <div className="flex items-center justify-between pt-6 border-t border-border dark:border-border-dark">
           <div className="flex items-center gap-4">
             <Button
@@ -314,71 +299,4 @@ export default function PostCard({
                 liked ? "text-red-500 hover:text-red-600" : "text-muted-foreground dark:text-muted-foreground-dark hover:text-foreground dark:hover:text-foreground-dark"
               )}
             >
-              <Heart className={cn("h-5 w-5 transition-all duration-300", liked && "fill-current")} />
-              <span className="font-medium">{likesCount}</span>
-            </Button>
-
-            <Button 
-              variant="ghost" 
-              size="sm" 
-              onClick={() => setShowCommentsSection(!showCommentsSection)}
-              className="flex items-center gap-2 hover:bg-secondary dark:hover:bg-secondary-dark px-3 py-2 rounded-lg transition-all duration-300 text-muted-foreground dark:text-muted-foreground-dark hover:text-foreground dark:hover:text-foreground-dark touch-target"
-            >
-              <MessageCircle className="h-5 w-5" />
-              <span className="font-medium">{commentsCount}</span>
-            </Button>
-          </div>
-
-          <Button
-            variant="ghost"
-            size="sm"
-            onClick={handleShare}
-            className="flex items-center gap-2 hover:bg-secondary dark:hover:bg-secondary-dark px-3 py-2 rounded-lg transition-all duration-300 text-muted-foreground dark:text-muted-foreground-dark hover:text-foreground dark:hover:text-foreground-dark touch-target"
-          >
-            <Share2 className="h-5 w-5" />
-            <span className="font-medium">Compartilhar</span>
-          </Button>
-        </div>
-
-        {/* Modal de Compartilhamento */}
-        <Dialog open={showShareModal} onOpenChange={setShowShareModal}>
-          <DialogContent className="sm:max-w-[500px]">
-            <DialogHeader>
-              <DialogTitle className="text-xl font-serif text-foreground dark:text-foreground-dark">
-                Compartilhar Post
-              </DialogTitle>
-            </DialogHeader>
-            <ShareCard
-              content={content}
-              bookTitle={book_title}
-              authorName={user.name}
-              postType={post_type}
-              imageUrl={image_url}
-            />
-          </DialogContent>
-        </Dialog>
-
-        {/* Seção de comentários */}
-        {showComments && showCommentsSection && (
-          <div className="mt-6 pt-6 border-t border-border dark:border-border-dark">
-            <CommentSection
-              postId={id}
-              comments={commentsData}
-              onAddComment={handleAddComment}
-              onLikeComment={handleLikeComment}
-            />
-          </div>
-        )}
-      </article>
-
-      {/* Posts similares */}
-      {showSimilar && (
-        <SimilarPosts
-          currentPostId={id}
-          currentTags={tags}
-          currentBookTitle={book_title}
-        />
-      )}
-    </>
-  )
-}
+              <Heart className={cn("h-5 w-5 transition-all duration-300", liked && "fill-current")
