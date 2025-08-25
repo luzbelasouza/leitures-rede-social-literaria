@@ -26,7 +26,8 @@ interface PostProps {
   user: {
     id: string
     name: string
-    avatar_url: string | null;
+    // ✅ Corrigido: permite string, null ou undefined
+    avatar_url?: string | null 
     badges?: any[]
   }
   content: string
@@ -44,6 +45,7 @@ interface PostProps {
   showSimilar?: boolean
   showComments?: boolean
 }
+
 
 const POST_TYPE_CONFIG = {
   excerpt: {
