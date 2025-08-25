@@ -185,8 +185,17 @@ export default function FeedPage() {
           </div>
         ) : (
           mockPosts.map((post) => (
-            <PostCard key={post.id} {...post} showSimilar={false} />
-          ))
+  <PostCard 
+    key={post.id} 
+    {...post} 
+    showSimilar={false}
+    user={{
+      ...post.user,
+      avatar_url: post.user.avatar_url ?? "/default-avatar.png",
+    }}
+  />
+))
+
         )}
       </div>
     </div>
