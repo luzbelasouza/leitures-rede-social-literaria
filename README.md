@@ -57,6 +57,21 @@ Essa metodologia foi criada não apenas para mim, mas para outros estudantes que
 * **Zod** (validação)
 * **TypeScript**
 
+## 📸 Prévia do Projeto
+
+Abaixo algumas capturas de tela que mostram a interface e o andamento atual do **Leitures**:
+
+### 🔹 Tela Inicial
+![Tela inicial](./imagens/Captura de tela 2025-08-28 170920.png)
+
+### 🔹 Página de Feed
+![Página de feed](./Captura de tela 2025-08-28 171008.png)
+
+### 🔹 Página de Login
+![Página de login](./imagens/Captura de tela 2025-08-28 170943.png)
+
+*Essas imagens são parte da documentação visual do projeto e ajudam o acompanhamento da evolução do MVP.
+
 ## 🔒 Segurança
 
 * **Row Level Security**: Políticas no Supabase
