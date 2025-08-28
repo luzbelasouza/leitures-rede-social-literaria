@@ -1,4 +1,7 @@
 # Leitures — Rede Social Literária
+![Colaboradores](https://img.shields.io/badge/colaboradores-bem_vindos-brightgreen?style=for-the-badge)
+![Help Wanted](https://img.shields.io/badge/help_wanted-issues-blue?style=for-the-badge)
+
 
 Leitures é uma rede social literária desenvolvida com apoio de **ferramentas de IA** (como o Bolt), onde apliquei meus conhecimentos em **engenharia de prompts**, **desenvolvimento web** e **documentação de software**.
 
@@ -126,3 +129,21 @@ Este projeto está organizado em **Milestones e Issues** para acompanhar a evolu
 🔒 Este projeto é parte de portfólio acadêmico/profissional de **Luzbela Souza**.  
 Não é autorizado o uso, modificação ou distribuição sem consentimento prévio da autora.  
 Consulte o arquivo [LICENSE.md](./LICENSE.md) para detalhes completos.
+
+## 🤝 Buscando Colaboradores
+
+O **Leitures** está em desenvolvimento ativo e procuramos parceiros/colaboradores!
+
+Áreas para contribuir:
+- 👩‍💻 Desenvolvimento (Next.js, Tailwind, Supabase)
+- 🎨 Design e UX
+- 🧪 Testes e QA
+- 📚 Curadoria de conteúdo literário
+
+Como colaborar:
+1. Faça um fork do repositório.
+2. Crie uma branch para sua contribuição: `git checkout -b minha-feature`.
+3. Envie um Pull Request descrevendo claramente suas mudanças.
+
+💬 Preferiu conversar antes? Abra uma **Issue** ou participe das **Discussions** do repo.
+
