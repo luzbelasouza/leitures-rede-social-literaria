@@ -143,9 +143,6 @@ Embora o código inicial tenha sido gerado com apoio da IA, sou responsável por
 
 *(Novas ferramentas serão adicionadas à lista sempre que forem integradas ao fluxo de trabalho deste projeto.)*
 
-
-(Novas ferramentas serão adicionadas à lista sempre que forem integradas ao fluxo de trabalho deste projeto.)
-
 > "Não se trata apenas de escrever código, mas de saber conduzir a tecnologia de forma estratégica, para transformar ideias em soluções reais."
 
 ## 📌 Roadmap no GitHub
