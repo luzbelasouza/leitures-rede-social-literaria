@@ -136,8 +136,8 @@ Embora o código inicial tenha sido gerado com apoio da IA, sou responsável por
 ## 📖 Transparência
 
 ### Ferramentas de IA utilizadas neste projeto
-- ![Bolt](https://img.shields.io/badge/Bolt-AI-blue?style=flat-square) → geração de código inicial, prototipagem rápida e suporte na arquitetura base.
-- ![ChatGPT](https://img.shields.io/badge/ChatGPT-IA-green?style=flat-square) → apoio na engenharia de prompts, revisão de documentação e organização de ideias.
+- ![Bolt](https://img.shields.io/badge/Bolt-AI-blue?style=flat-square) → (versão PRO) geração de código inicial, prototipagem rápida e suporte na arquitetura base.
+- ![ChatGPT](https://img.shields.io/badge/ChatGPT-IA-green?style=flat-square) → (versão PLUS) apoio na revisão de documentação e organização de ideias.
 
 (Novas ferramentas serão adicionadas à lista sempre que forem integradas ao fluxo de trabalho deste projeto.)
 
