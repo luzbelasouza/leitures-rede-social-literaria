@@ -135,9 +135,14 @@ Embora o código inicial tenha sido gerado com apoio da IA, sou responsável por
 
 ## 📖 Transparência
 
-### Ferramentas de IA utilizadas neste projeto
-- ![Bolt](https://img.shields.io/badge/Bolt-AI-blue?style=flat-square) → (versão PRO) geração de código inicial, prototipagem rápida e suporte na arquitetura base.
-- ![ChatGPT](https://img.shields.io/badge/ChatGPT-IA-green?style=flat-square) → (versão PLUS) apoio na revisão de documentação e organização de ideias.
+### Ferramentas utilizadas
+
+- ![Bolt](https://img.shields.io/badge/Bolt-PRO-blue?style=flat-square) → (versão PRO) geração de código inicial, prototipagem e suporte na arquitetura base.  
+- ![ChatGPT](https://img.shields.io/badge/ChatGPT-PLUS-green?style=flat-square) → (versão PLUS) apoio na revisão de documentação e organização de ideias. 
+- ![Supabase](https://img.shields.io/badge/Supabase-Database-lightgrey?style=flat-square) → (versão FREE - até 0.5 GB de memória, CPU compartilhada) prototipagem e MVPs.backend-as-a-service para autenticação, banco de dados PostgreSQL e políticas de segurança (RLS).  
+
+*(Novas ferramentas serão adicionadas à lista sempre que forem integradas ao fluxo de trabalho deste projeto.)*
+
 
 (Novas ferramentas serão adicionadas à lista sempre que forem integradas ao fluxo de trabalho deste projeto.)
 
