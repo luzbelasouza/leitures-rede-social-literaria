@@ -13,9 +13,6 @@ Leitures é uma rede social literária desenvolvida com apoio de ferramentas de 
 
 O objetivo deste repositório é documentar a jornada de criação de um MVP funcional, registrando não só o código, mas também meu processo de aprendizado, decisões técnicas e uso estratégico da IA como copilota.
 
-
----
-
 ## 🚀 Status Atual
 
 * MVP funcional criado no Bolt
@@ -23,15 +20,13 @@ O objetivo deste repositório é documentar a jornada de criação de um MVP fun
 * Design editorial premium implementado
 * Otimizado para web e mobile
 
----
-
 ## 🎯 Objetivo
 
 Este repositório é um **portfólio vivo do meu aprendizado**, onde demonstro que, mesmo ainda buscando minha primeira oportunidade como estagiária, estou encontrando caminhos para me desenvolver de forma autônoma, transformando ideias em produtos reais, estruturando projetos do zero e liderando sua execução até a entrega de um MVP funcional.
 
 Faço isso por meio de **práticas de engenharia de prompt** e do **uso estratégico de ferramentas de IA**, que me permitem acelerar processos e otimizar etapas que, de outra forma, exigiriam alto custo com equipes maiores ou mais tempo de produção.
 
-### Meus objetivos com este projeto:
+### Meus objetivos com este projeto
 
 * Documentar tudo em tempo real
 * Mostrar a clareza das minhas decisões e método de trabalho
@@ -39,13 +34,11 @@ Faço isso por meio de **práticas de engenharia de prompt** e do **uso estraté
 * Listar os recursos explorados
 * Explorar o potencial da IA como copilota no processo criativo e técnico
 
----
-
 ## 🧩 Metodologia
 
-Essa metodologia foi criada não apenas para mim, mas para outros estudantes que como eu, não estão focando apenas em *aprendendo a programar* mas querem construir uma forma própria de trabalho, demonstrando visão de estratégica, clareza na liderança e foco nos resultados.
+Essa metodologia foi criada não apenas para mim, mas para outros estudantes que como eu, não estão focando apenas em *aprendendo a programar* mas querem construir uma forma própria de trabalho, demonstrando visão estratégica, clareza na liderança e foco nos resultados.
 
-### Metodologia aplicada neste projeto:
+### Metodologia aplicada neste projeto
 
 * **Ideação Estruturada** → transformar uma ideia em requisitos claros e objetivos
 * **Engenharia de Prompt** → usar IA de forma estratégica para gerar código, documentação e design
@@ -56,8 +49,6 @@ Essa metodologia foi criada não apenas para mim, mas para outros estudantes que
 * **Iteração e Escalabilidade** → evoluir o MVP gradualmente até uma versão robusta
 * **Colaboração Aberta** → disposição para trabalhar em equipe, receber feedback e integrar ideias diversas ao projeto, abrindo espaço para contribuições externas via Issues, Pull Requests e Discussions.
 
----
-
 ## 🛠️ Tecnologias
 
 * **Next.js** (framework React)
@@ -66,16 +57,12 @@ Essa metodologia foi criada não apenas para mim, mas para outros estudantes que
 * **Zod** (validação)
 * **TypeScript**
 
----
-
 ## 🔒 Segurança
 
 * **Row Level Security**: Políticas no Supabase
 * **Validação Client/Server**: Zod schemas
 * **Sanitização**: Prevenção de XSS
 * **Rate Limiting**: Controle de spam (futuro)
-
----
 
 ## ⚡ Performance
 
@@ -84,16 +71,12 @@ Essa metodologia foi criada não apenas para mim, mas para outros estudantes que
 * Caching: Estratégias de cache do Next.js
 * Bundle Analysis: Otimização de tamanho
 
----
-
 ## 🎮 Gamificação (futuro)
 
 * Sistema de Pontos: XP por ações
 * Leaderboards: Rankings mensais
 * Achievements: 50+ tipos de conquistas
 * Streaks: Sequências de atividade
-
----
 
 ## 📊 Analytics e Insights (futuro)
 
@@ -102,16 +85,12 @@ Essa metodologia foi criada não apenas para mim, mas para outros estudantes que
 * A/B Testing: Otimização de features
 * Heatmaps: Análise de comportamento
 
----
-
 ## 💰 Monetização (futuro)
 
 * Premium Features: Funcionalidades pagas
 * Marketplace: Venda de livros
 * Sponsored Posts: Publicidade nativa
 * Creator Fund: Monetização para criadores
-
----
 
 ## 🌐 Expansão (futuro)
 
@@ -120,16 +99,12 @@ Essa metodologia foi criada não apenas para mim, mas para outros estudantes que
 * API Pública: Para desenvolvedores terceiros
 * Integração com E-readers: Kindle, Kobo
 
----
-
 ## 🧪 Testes (planejados)
 
 * Unit Tests: Jest + React Testing Library
 * Integration Tests: Cypress
 * E2E Tests: Playwright
 * Coverage: 80%+ de cobertura
-
----
 
 ## ♿ Acessibilidade
 
@@ -138,11 +113,9 @@ Essa metodologia foi criada não apenas para mim, mas para outros estudantes que
 * Keyboard Navigation: Navegação completa
 * Color Contrast: 4.5:1 mínimo
 
----
-
 ## 🎯 Meu Papel
 
-Embora o código inicial tenha sido gerado com apoio da IA, Ssou responsável por:
+Embora o código inicial tenha sido gerado com apoio da IA, sou responsável por:
 
 * **Elaborar prompts técnicos e detalhados** → direcionando a IA para gerar código, documentação e design consistentes.
 * **Definir requisitos funcionais** → traduzindo ideias em funcionalidades práticas e priorizadas para o MVP.
@@ -153,8 +126,6 @@ Embora o código inicial tenha sido gerado com apoio da IA, Ssou responsável po
 * **Aplicar visão de produto** → pensando além do código, considerando público-alvo, usabilidade e impacto.
 * **Liderar o processo de aprendizagem contínua** → mostrando iniciativa em aprender novas tecnologias, explorar soluções e transformar teoria em prática.
 
----
-
 ## 📅 Roadmap
 
 * Conectar repositório com Bolt (código base) ✅
@@ -162,21 +133,15 @@ Embora o código inicial tenha sido gerado com apoio da IA, Ssou responsável po
 * Adicionar issues e milestones (funcionalidades futuras) 🔜
 * Publicar versão inicial (deploy) 🔜
 
----
-
 ## 📖 Transparência
-
-**Ferramentas de IA utilizadas neste projeto**
 
 ### Ferramentas de IA utilizadas neste projeto
 - ![Bolt](https://img.shields.io/badge/Bolt-AI-blue?style=flat-square) → geração de código inicial, prototipagem rápida e suporte na arquitetura base.
 - ![ChatGPT](https://img.shields.io/badge/ChatGPT-IA-green?style=flat-square) → apoio na engenharia de prompts, revisão de documentação e organização de ideias.
-- 
+
 (Novas ferramentas serão adicionadas à lista sempre que forem integradas ao fluxo de trabalho deste projeto.)
 
-"Não se trata apenas de escrever código, mas de saber conduzir a tecnologia de forma estratégica, para transformar ideias em soluções reais."
-
----
+> "Não se trata apenas de escrever código, mas de saber conduzir a tecnologia de forma estratégica, para transformar ideias em soluções reais."
 
 ## 📌 Roadmap no GitHub
 
@@ -190,32 +155,25 @@ Este projeto está organizado em **Milestones** e **Issues** para acompanhar a e
 🌐 Expansão & Internacionalização — em planejamento (0% concluído)
 🧪 Testes & Qualidade — em planejamento (0% concluído)
 
----
-
 ## 📜 Licença
 
 🔒 Este projeto é parte de portfólio acadêmico/profissional de Luzbela Souza.
 Não é autorizado o uso, modificação ou distribuição sem consentimento prévio da autora.
 Consulte o arquivo LICENSE.md para detalhes completos.
 
----
-
 ## 🤝 Buscando Colaboradores
 
 O Leitures está em desenvolvimento ativo e procuramos parceiros/colaboradores!
 
-### Áreas para contribuir:
+### Áreas para contribuir
 
 * 👩‍💻 Desenvolvimento (Next.js, Tailwind, Supabase)
 * 🎨 Design e UX
 * 🧪 Testes e QA
 * 📚 Curadoria de conteúdo literário
 
-### Como colaborar:
+### Como colaborar
 
 1. Faça um fork do repositório.
 2. Crie uma branch para sua contribuição: `git checkout -b minha-feature`
 3. Envie um Pull Request descrevendo claramente suas mudanças.
-
-💬 Preferiu conversar antes? Abra uma **Issue** ou participe das **Discussions** do repo.
-
