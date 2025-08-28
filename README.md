@@ -62,13 +62,13 @@ Essa metodologia foi criada não apenas para mim, mas para outros estudantes que
 Abaixo algumas capturas de tela que mostram a interface e o andamento atual do **Leitures**:
 
 ### 🔹 Tela Inicial
-![Tela inicial](./imagens/Captura de tela 2025-08-28 170920.png)
+[![Tela inicial](./imagens/Captura%20de%20tela%202025-08-28%20170920.png)](./imagens/Captura%20de%20tela%202025-08-28%20170920.png)
 
 ### 🔹 Página de Feed
-![Página de feed](./Captura de tela 2025-08-28 171008.png)
+[![Página de feed](./imagens/Captura%20de%20tela%202025-08-28%20171008.png)](./imagens/Captura%20de%20tela%202025-08-28%20171008.png)
 
 ### 🔹 Página de Login
-![Página de login](./imagens/Captura de tela 2025-08-28 170943.png)
+[![Página de login](./imagens/Captura%20de%20tela%202025-08-28%20170943.png)](./imagens/Captura%20de%20tela%202025-08-28%20170943.p)
 
 *Essas imagens são parte da documentação visual do projeto e ajudam o acompanhamento da evolução do MVP.
 
